@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Troubleshooting-Suite" verbose="1">
+    <test name="Troubleshooting">
+        <classes>
+            <class name="com.mx.tests.Troubleshooting">
+                <methods>
+                    <include name="waitTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
